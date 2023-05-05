@@ -1,0 +1,24 @@
+name: ServerManager
+main: com.ykn.servermanager.ServerManager
+version: 0.0.5
+api-version: 1.13
+author: ykn
+
+commands:
+  servermanager:
+    description: To show the version of the plugin "Server Manager".
+    usage: usage /<command> to show the version of the plugin
+    permission: servermanager.servermanager
+    permission-message: You have no permission to run this command.
+
+permissions:
+  servermanager.servermanager:
+    default: true
+  servermanager.broadcast.bossbar:
+    default: true
+  servermanager.broadcast.chat:
+    default: true
+  servermanager.home:
+    default: true
+  servermanager.back:
+    default: true
